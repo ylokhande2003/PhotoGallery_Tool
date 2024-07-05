@@ -42,6 +42,7 @@ A photo gallery web application built using the MERN stack. Users can upload, ta
     - Open a terminal.
     - Navigate to the server directory:
       ```bash
+      cd client
       cd server
       ```
     - Start the server:
@@ -53,7 +54,7 @@ A photo gallery web application built using the MERN stack. Users can upload, ta
     - Open another terminal.
     - Navigate to the client directory:
       ```bash
-      cd ../
+      cd client
       ```
     - Start the frontend server:
       ```bash
