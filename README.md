@@ -89,5 +89,5 @@ Three users have been created for testing:
 - Delete photos from your gallery.
 
 ## Video
-https://github.com/ylokhande2003/PhotoGallery_Tool/assets/91784682/5d90e696-2cc3-4d70-ae13-1c3454560c9e
+https://github.com/ylokhande2003/PhotoGallery_Tool/assets/91784682/b6585ea6-792b-4723-b7f0-9d21f3138625
 
