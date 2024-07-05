@@ -1,0 +1,248 @@
+/* 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: calc(33.333% - 40px);
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f5f;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .photo {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .photo {
+    width: calc(100% - 40px);
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+  .login{
+    align-content: center;
+    text-align: center;
+    padding-top: 20%;
+  }
+  .form{
+    align-content: center;
+    text-align: center;
+    padding-top: 20%;
+  }
+   */ 
+   /* styles.css */
+
+/* Existing styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="file"],
+form input[type="password"],
+form input[type="text"],
+form input[type="date"],
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+form input[type="file"] {
+  padding: 5px;
+}
+
+form input[type="text"] {
+  padding: 8px;
+}
+
+form button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005f5f;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: calc(33.333% - 40px);
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+.delete-button {
+  background-color: #ff4d4d;
+  border: none;
+  cursor: pointer; 
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;/* Red color for delete button */
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .photo {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .photo {
+    width: calc(100% - 40px);
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
